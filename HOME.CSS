@@ -1,0 +1,79 @@
+body{
+    background-image:url("1745849803591.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+};
+
+.Header{
+    position:fixed;
+    color: azure;
+    top: 40%; 
+    right: 50%;
+    transform: translate(50%,50%);
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Center{
+    text-align:center;
+    margin: auto;
+    padding-bottom:5%;
+    }
+
+.Welcoming Message{
+    color:black;
+    font-size:smaller;
+    font-family: cursive;
+    float:inline-end;
+    padding-bottom: 80%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.NavigationBar{
+    width: 400px;
+    float:inline-start;
+    height: 60px;
+}
+
+
+.ul{
+    list-style: none;
+    padding-top: 40px;
+    float:right;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 50px;
+    font-size: 14px;
+    display:flex
+}
+
+.ul li a{
+    color:aqua;
+    color:blue;
+    font-family: Arial;
+    font-weight:100;
+    transition:3s ease-in-out;
+}
+
+.ul li a:hover{
+    color:orange;
+}
+
+.Footer{
+    color:blue;
+    text-align:center;
+    padding-top: 460px;
+    font-weight: bolder;
+}
